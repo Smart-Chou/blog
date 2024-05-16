@@ -107,4 +107,29 @@ export default function(Vue, { router, head, isClient }) {
   router.afterEach((to, from) => {
     NProgress.done()
   })
+
+  // Add an external CSS file
+  // head.link.push({
+  //   rel: 'stylesheet',
+  //   href: 'https://some-server.com/external-styleheet.css'
+  // })
+
+  // Add an external JavaScript before the closing </body> tag
+  head.script.push({
+    src: 'https://umami.marxchou.com/script.js',
+    defer: 'true',
+    'data-website-id': '73b29141-fccf-4d54-9c2f-f7d0d146f86b',
+  })
+
+  // Add inline CSS
+  // head.style.push({
+  //   type: 'text/css',
+  //   cssText: '.some-custom-css {color: red}'
+  // })
+
+  // Add a meta tag
+  // head.meta.push({
+  //   name: 'keywords',
+  //   content: 'HTML,CSS,XML,JavaScript'
+  // })
 }
