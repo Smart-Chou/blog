@@ -3,7 +3,7 @@
 
 # Spencer's blog
 
-<h5>Live at: <a href="https://blog.spencerwoo.com">blog.spencerwoo.com</a></h5>
+<h5>Live at: <a href="https://marxchou.com">blog.spencerwoo.com</a></h5>
 
 ## Build & preview
 
